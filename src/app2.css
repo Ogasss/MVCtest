@@ -15,7 +15,7 @@
 }
 
 #app2 .tab-content{
-
+    visibility: none;
 }
 #app2 .tab-content > li{
 }

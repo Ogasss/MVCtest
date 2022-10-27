@@ -1,6 +1,23 @@
 import $ from 'jquery'
 import './app1.css'
 
+const html =
+`
+<section id="app1">
+    <div class="output">
+        <span id="number">100</span>
+    </div>
+    <div class="actions">
+        <button id="add1">+</button>
+        <button id="minus1">-</button>
+        <button id="mul2">×</button>
+        <button id="device2">÷</button>
+    </div>
+</section>
+`
+
+const $element = $(html).appendTo($('body>.page'))
+
 const $buttonAdd = $('#add1')
 const $buttonMinus = $('#minus1')
 const $buttonMul = $('#mul2')

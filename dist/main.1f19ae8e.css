@@ -61,7 +61,7 @@ body{
 }
 
 #app2 .tab-content{
-
+    visibility: none;
 }
 #app2 .tab-content > li{
 }
@@ -110,7 +110,7 @@ body{
     transition: ease 1s all;
 }
 .hover{
-    animation: change 1s infinite alternate linear;
+    animation: change 2s infinite alternate ease;
 }
 
 /*# sourceMappingURL=/main.1f19ae8e.css.map */

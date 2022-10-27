@@ -24,5 +24,5 @@
     transition: ease 1s all;
 }
 .hover{
-    animation: change 1s infinite alternate linear;
+    animation: change 2s infinite alternate ease;
 }
