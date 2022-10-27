@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+*::before, *::after{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body{
+    overflow: hidden;
+}
+.page{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page > section {
+    height: 50vh;
+    width: 50vw;
+    border: 1px solid red;
+}
+#app1{
+    width: 50vw;
+    height: 50vh;
+}
+#app1 .output{
+    
+}
+
+#app1 .actions{
+    
+}
+#app2 {
+}
+
+#app2 .tab-bar{
+    display: flex;
+}
+#app2 .tab-bar > li{
+    border: 1px solid gray;
+    width: 50%;
+}
+#app2 .tab-bar > li.selected{
+    background-color: wheat;
+    color: gray;
+    border-color: wheat;
+}
+
+#app2 .tab-content{
+
+}
+#app2 .tab-content > li{
+}
+#app2 .tab-content > li.active{
+    visibility: block;
+}
+
+#app3 {
+    display: flex;
+}
+#app3 .square{
+    border: 1px solid red;
+    width: 25%;
+    height: 25%;
+    margin-top: 10%;
+    margin-left: 10%;
+    transition: all 1s ease;
+}
+.active{
+    border-radius: 50%;
+    transform: translateX(200%);
+}
+#app4{
+    display: flex;
+}
+
+@keyframes change {
+    0%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.circle{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 120px;
+    height: 120px;
+    border: 1px solid red;
+    border-radius: 25%;
+    transition: ease 1s all;
+}
+.hover{
+    animation: change 1s infinite alternate linear;
+}
+
+/*# sourceMappingURL=/main.1f19ae8e.css.map */

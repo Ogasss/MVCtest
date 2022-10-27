@@ -1,0 +1,15 @@
+#app3 {
+    display: flex;
+}
+#app3 .square{
+    border: 1px solid red;
+    width: 25%;
+    height: 25%;
+    margin-top: 10%;
+    margin-left: 10%;
+    transition: all 1s ease;
+}
+.active{
+    border-radius: 50%;
+    transform: translateX(200%);
+}

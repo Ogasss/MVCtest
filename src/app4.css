@@ -1,0 +1,28 @@
+#app4{
+    display: flex;
+}
+
+@keyframes change {
+    0%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.circle{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 120px;
+    height: 120px;
+    border: 1px solid red;
+    border-radius: 25%;
+    transition: ease 1s all;
+}
+.hover{
+    animation: change 1s infinite alternate linear;
+}
